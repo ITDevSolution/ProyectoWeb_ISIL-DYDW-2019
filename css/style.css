@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(footer.css);
+@import url(secciones.css);
+/*Formateamos el documento para todos los contenedores padre tengan el 100% del vieport*/
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/*tipo de letra para el DOM*/
+body {
+     font-family: 'Roboto', sans-serif;
+}
+/*Contenedor padre header*/
+header{
+     width: 100%;
+     background-color: rgba(255,253,255);
+     /*para que el contenedor sea visible
+     en todo el viewport*/
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 100;
+}
+
+header label{
+     float: right;
+     font-size: 28px;
+     margin: 12px 0;
+     cursor: pointer;
+     color: #D96F32;
+     padding-top: 20px;
+}
+
+/**/
+.container{
+     width: 100%;
+     margin: auto;
+     display: inline-block;
+}
+
+header .container{
+    
+    
+}
+
+/* h1{
+     float: left;
+} */
+
+.logo1{
+     float: left;
+     margin:20px;
+}
+
+section{
+    width: 100%;
+    
+}
+
+#bienvenidos{
+    text-align: center;
+}
+
+.titulo_banner{
+    color: white;
+}
+
+/* .parrafo_banner{
+    color: white;
+}
+.parrafo_banner2{
+     color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
