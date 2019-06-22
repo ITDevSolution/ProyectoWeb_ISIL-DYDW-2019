@@ -1,8 +1,15 @@
+.blog{
+    margin-top: 5.8em;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ececec;
+    padding-top: 20px;
+}
+
 .blog .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: #ececec;
     padding: 20px;
 }
 
