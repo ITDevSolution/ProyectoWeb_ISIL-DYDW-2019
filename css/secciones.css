@@ -7,6 +7,13 @@
 	src: local('DINPro-Bold'), url('../font/DINPro-Bold_13934.woff') format('woff');
 }
 
+@font-face {
+	font-family: 'DINPro-Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('DINPro-Light'), url('DINPro-Light_13935.woff') format('woff');
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -56,7 +63,6 @@ p {
 	width: 100%;
 	margin: auto;
 	clear: both;
-
 }
 
 .bienvenidos {
@@ -311,12 +317,127 @@ p {
 /***************** PAGINA NOSOTROS ********************/
 
 /*  CALIDAD DE SERVICIO */
-.contenedor-calidad{
+.contenedor-calidad {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
+	background: #EDEDED;
+}
+
+.contenedor-calidad .columnasx1 {
+	margin: 50px 0px 70px;
+}
+
+.contenedor-calidad .columnasx1 h2 {
+	text-align: center;
+	color: #057092;
+	font-size: 2.2em;
+	font-family: sans-serif;
+	margin-bottom: 0.7em;
+}
+
+.contenedor-calidad .columnasx1 p {
+	color: #666;
+	font-size: 1.3em;
+	font-family: DINPro-Light;
+	line-height: 1.3;
+	text-align: center;
+}
+
+/*POLITICA DE LA CALIDAD*/
+.contenedor-politica {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #086F91;
+	margin: auto;
+}
+
+.contenedor-politica .columnasx1 {
+	margin: 50px 0px 70px;
+	color: white;
+}
+
+.contenedor-politica .columnasx1 h2 {
+	font-family: 'DINPro-Bold', sans-serif;
+	font-size: 2.2em;
+	padding-left: 200px;
+	font-weight: normal;
+	position: relative;
+	margin-bottom: 35px;
+	line-height: 1;
+}
+
+.contenedor-politica .columnasx1 p {
+	font-size: 19px;
+	margin: 0 0 15px;
+	font-family: sans-serif;
+	font-weight: normal;
+	padding-left: 200px;
+}
+
+.contenedor-politica .columnasx1 ul li {
+	font-size: 19px;
+	padding-left: 250px;
+	position: relative;
+	margin-bottom: 10px;
+	list-style: none;
+	
+}
+
+.contenedor-politica .columnasx1 ul li::before {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url("/img/img-list.png") 0px 0px no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+/*Seccion SEDE*/
+.contenedor-sede{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 0;
+}
+.contenedor-sede .columnasx1{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	color: #057092;
+	
+}
+.contenedor-sede .columnasx1 h2{
+	margin-top: 2.5em;
+	font-size: 2.2em;
+	font-family: 'DINPro-Bold';
+}
+.contenedor-sede .columnasx1 p{	
+	margin-top: 0.9em;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-align: justify;
+	margin-left: 20em;
+	margin-bottom: 1.3em;
+	line-height: 0.2;
+}
+.contenedor-sede .columnasx1 .btn-servicio{
+	margin: auto;
+}
+.contenedor-sede .columnasx1 img{
+	width: 100%;
+	height: 100%;
 }
 
 /* VISION Y MISION */
@@ -330,37 +451,40 @@ p {
 	flex-wrap: wrap;
 	margin-bottom: 100px;
 	background: #ff802b;
-	height: 40vh;
+	height: 50vh;
+	margin-bottom: 0;
 }
 
 .columnasx3 {
 	width: 30%;
-	height: 40vh;
+	height: 50vh;
 	float: left;
 	box-sizing: border-box;
 }
 
 .columnasx3 img {
 	width: 100%;
-	height: 40vh;
+	height: 50vh;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-.columnasx3 h2{
+.columnasx3 h2 {
 	text-align: center;
-	padding: 1em;
 	font-size: 2em;
 	font-family: 'DINPro-Bold';
 	font-weight: 700;
 	color: white;
+	margin-top: 3.5em;
 }
-.columnasx3 p{
+
+.columnasx3 p {
 	text-align: justify;
 	font-size: 1.2em;
 	line-height: 1.3;
 	padding-left: 5em;
 	color: white;
 	font-weight: 700;
+	margin-top: 1.4em;
 }

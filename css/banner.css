@@ -73,6 +73,7 @@
     
     margin-top: 0px;
     position: relative;
+    overflow: hidden;
 }
 
 .banner2 .imagen2{
@@ -93,10 +94,11 @@
 }
 
 .banner2 .container{
+   
     position: absolute;
     color: white;
     top: 40%;
-    left: 0%;
+    left: 25%;
     
 }
 
