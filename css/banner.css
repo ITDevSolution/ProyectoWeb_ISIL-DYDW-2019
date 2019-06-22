@@ -140,6 +140,78 @@
     
 }
 
+/*SLIDER EXPERIENCIA*/
+.banner3 {
+    
+    margin-top: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner3 .imagen3{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(23,127,191,0.3)
+    ),
+        url(../img/expe.jpg);
+    
+    /*poner constraste a la imagen*/
+    /*-webkit-filter: contrast(50%);
+    filter: contrast(50%);*/
+}
+
+.banner3 .container{
+   
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 25%;
+    
+}
+
+.banner3 h2{
+    font-size: 3rem;
+}
+
+.banner3 p{
+    font-size: 4rem;
+    color: white;
+    font-weight: 400;
+}
+
+.banner3 a{
+    display: block;
+    width: 100px;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+.banner3 a:hover{
+    background: rgba(51,51,51,.5);
+}
+
+@media (min-width:480px){
+    .banner3 h2{
+        font-size: 4rem;
+    }
+    
+    .banner3 a{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:768px){
+    
+}
+
 
 
 
