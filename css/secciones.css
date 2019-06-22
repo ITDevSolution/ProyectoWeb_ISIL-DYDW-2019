@@ -491,3 +491,158 @@ p {
 
 /*******************************************************************/
 /**************** PAGINA EXXPERIENCIA *****************************/
+
+.contenedor-experiencia-banner{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 60vh;
+}
+.contenedor-experiencia-banner .columnasx2-exp{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	color: #057092;
+}
+.contenedor-experiencia-banner .columnasx2-exp .exp-h2{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'DINPro-Bold';
+	font-weight: 700;
+	margin-top: 1em;
+	
+}
+.contenedor-experiencia-banner .columnasx2-exp span{
+	color: #ff802b;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.contenedor-experiencia-banner .columnasx2-exp .exp-text1{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+.contenedor-experiencia-banner .columnasx2-exp .exp-text2{
+	text-align: justify;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 3em;
+}
+.contenedor-experiencia-banner .columnasx2-exp img{
+	width: 100%;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* CARD DE EXPERIENCIA */
+.container-card{
+	position: relative;
+	width: 100%;
+	margin: 20px 0 auto;
+	height: auto;;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+	grid-template-rows: auto 1fr auto;
+	grid-gap: 0px;  
+}
+.container-card .card{
+	position: relative;
+	width: 33%;
+	height: 440px;
+	background: #000;
+	overflow: hidden;
+	margin: 0px;
+	width: 100%;
+	transition: 0.5s;
+}
+.container-card .card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container-card .card .img-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}
+
+.container-card .card:hover .img-box{
+	opacity: 0.5;
+}
+.container-card .card .img-box img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	transition: 0.5s;
+}
+.container-card .card .img-box:hover img{
+	opacity: unset;
+}
+.container-card .card .icon{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	color: #fff;
+	font-size: 3em;
+	transition: 0.5s;
+}
+.container-card .card:hover .icon{
+	top: -40%;
+}
+.container-card .card .content{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	bottom: -100%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	transition: 0.5s;
+}
+.container-card .card:hover .content{
+	bottom: 0;
+}
+
+.container-card .card:nth-child(1) .content{
+	background: linear-gradient(0deg,#c21833,transparent);
+}
+.container-card .card:nth-child(2) .content{
+	background: linear-gradient(0deg,#8012a5,transparent);
+}
+.container-card .card:nth-child(3) .content{
+	background: linear-gradient(0deg,#3a414c,transparent);
+}
+.container-card .card:nth-child(4) .content{
+	background: linear-gradient(0deg,#2196f3,transparent);
+}
+.container-card .card:nth-child(5) .content{
+	background: linear-gradient(0deg,#f32172,transparent);
+}
+.container-card .card:nth-child(6) .content{
+	background: linear-gradient(0deg,#ece1e5,transparent);
+}
+
+
+.container-card .card .content h2{
+	margin: 0 0 10px;
+	padding: 0;
+	font-size: 20px;
+	color: #fff;
+}
+.container-card .card .content h2 span{
+	color: #ffeb3b;
+	font-size: 16px;
+}
+.container-card .card .content p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+}
